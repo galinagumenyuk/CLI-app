@@ -9,8 +9,13 @@ async function listContacts() {
   return list;
 }
 
-function getContactById(contactId) {
-  // ...твой код
+async function getContactById(contactId) {
+  const list = await listContacts();
+  const result = list.find((item) => parseInt(item.id) === contactId);
+  if (!result) {
+    return null;
+  }
+  return result;
 }
 
 function removeContact(contactId) {
@@ -23,4 +28,5 @@ function addContact(name, email, phone) {
 
 module.exports = {
   listContacts,
+  getContactById,
 };
