@@ -54,33 +54,9 @@
         "phone": "(748) 206-2688"
     },
     {
-        "name": {
-            "name": "Mango",
-            "email": "mango@gmail.com",
-            "phone": "322-22-22"
-        },
-        "id": "5cee12f1-5fa3-4b8a-a873-3577553985a3"
-    },
-    {
-        "name": {
-            "name": "Mango",
-            "email": "mango@gmail.com",
-            "phone": "322-22-22"
-        },
-        "id": "e665e857-8f28-42ae-a018-37fcb6161dca"
-    },
-    {
-        "name": {
-            "name": "Mango",
-            "email": "mango@gmail.com",
-            "phone": "322-22-22"
-        },
-        "id": "85585ac4-af99-40fb-bd86-ddfa8c72bd54"
-    },
-    {
         "name": "Mango",
         "email": "mango@gmail.com",
         "phone": "322-22-22",
-        "id": "db11061a-d928-4581-9034-a632b5329e1f"
+        "id": "81d99116-3a1a-4106-909a-f285ffdeff91"
     }
 ]
