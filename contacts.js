@@ -20,7 +20,14 @@ async function getContactById(contactId) {
 }
 
 async function removeContact(contactId) {
-  // ...твой код
+  const list = await listContacts();
+  const idx = list.findIndex((item) => parseInt(item.id) === contactId);
+  if (idx === -1) {
+    return null;
+  }
+  const [removeContact] = list.splice(idx, 1);
+  await fs.writeFile(filePath, JSON.stringify(list));
+  return removeContact;
 }
 
 async function addContact({ name, email, phone }) {
